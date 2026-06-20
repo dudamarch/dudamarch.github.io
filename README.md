@@ -61,9 +61,7 @@ body{
 </div>
 
 <script>
-document.getElementById('card').onclick = function() {
-  this.classList.toggle('flip');
-}
+document.getElementById('card').onclick = function() {this.classList.toggle('flip');}
 </script>
 
 </body>
