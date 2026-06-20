@@ -68,3 +68,5 @@ document.getElementById('card').onclick = function() {
 
 </body>
 </html>
+ <img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/48e733c0-3716-41ca-9d68-1faa2a310204" />
+<img width="525" height="300" alt="image" src="https://github.com/user-attachments/assets/5fbc6598-e80e-441a-a7e8-05f8df01cf25" />
