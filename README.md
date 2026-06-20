@@ -36,13 +36,15 @@ body{
   overflow:hidden;
 }
 
-.face img{
+.face img{<img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/f302b312-d49e-47dd-b40a-2730e856ac0e" />
+
   width:100%;
   height:100%;
   object-fit:cover;
 }
 
-.back{
+.back{<img width="525" height="300" alt="image" src="https://github.com/user-attachments/assets/cb322a13-d631-4284-80ec-abd75f977d90" />
+
   transform:rotateY(180deg);
 }
 </style>
@@ -61,10 +63,10 @@ body{
 </div>
 
 <script>
-document.getElementById('card').onclick = function() {this.classList.toggle('flip');}
+document.getElementById('card').onclick = function() {
+  this.classList.toggle('flip');
+}
 </script>
 
 </body>
 </html>
- <img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/48e733c0-3716-41ca-9d68-1faa2a310204" />
-<img width="525" height="300" alt="image" src="https://github.com/user-attachments/assets/5fbc6598-e80e-441a-a7e8-05f8df01cf25" />
