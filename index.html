@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+This is what I have: <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -11,27 +11,11 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  overflow:hidden;
+  background-image: url("background.png");
+  background-size:cover;
+  background-position:center;
 }
 
-/* VIDEO BACKGROUND */
-.video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-}
-
-.video-background video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* CARD */
 .card{
   width:100vw;
   max-width:650px;
@@ -69,14 +53,6 @@ body{
 
 <body>
 
-<!-- VIDEO BACKGROUND -->
-<div class="video-background">
-  <video autoplay muted loop playsinline>
-    <source src="background.mp4" type="video/mp4">
-  </video>
-</div>
-
-<!-- CARD -->
 <div class="card" id="card">
   <div class="face">
     <img src="Frente.jpg.PNG">
